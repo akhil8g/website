@@ -6,9 +6,10 @@
 body {
     background-image: url(images/Gradient.jpg);
     background-size: cover;
+    background-attachment: fixed;
     height: 100vh;
     width: 100vw;
-    background-position: center center;
+    background-position: center;
     background-repeat: no-repeat;
     text-align: center;
     margin: 0;
