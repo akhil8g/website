@@ -1,40 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SHRESHTA 2023</title>
-    <link rel="shortcut icon" href="images\shreshta.png" type="image/x-icon">
-    <link rel="stylesheet" href="css/styles.css">
+    <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
+
 <body>
-    
-    <header><h3>SHRESHTA</h3></header>
-    <main>
-    <div class="big-circle"></div>
-    <div class="main-title">
-        <div class="heading">
-            <h1 class="get-ready">GET READY</h1>
-            <h1 class="level-up">TO <span class="levelup">LEVEL UP</span></h1>
-        </div>
-        
+    <div class="wrapper">
+        <main>
+
+            <div class="mobile_menu hide-for-desktop navbar">
+                <ul class="mob-nav">
+                    <li class="indent mobile nav-item "><a class="drop-btn" id="drop-btn1" data-bs-toggle="dropdown"
+                            aria-expanded="false">Feature
+                            <img src="images/icon-arrow-down.svg" class="drop" alt="">
+                        </a>
+                        <ul class="dropdown-menu mobile">
+                            <li><a class="dropdown-item" href="#"><img src="images/icon-todo.svg" alt="">Todo List</a>
+                            </li>
+                            <li><a class="dropdown-item" href="#"><img src="images/icon-calendar.svg"
+                                        alt="">Calendar</a></li>
+                            <li><a class="dropdown-item" href="#"><img src="images/icon-reminders.svg"
+                                        alt="">Reminders</a></li>
+                            <li><a class="dropdown-item" href="#"><img src="images/icon-planning.svg"
+                                        alt="">Planning</a></li>
+                        </ul>
+                    </li>
+                    <li class="indent mobile nav-item "><a href="#" class="drop-btn" data-bs-toggle="dropdown"
+                            aria-expanded="false">Company
+                            <img src="images/icon-arrow-down.svg" class="drop" alt="">
+                        </a>
+                        <ul class="dropdown-menu mobile">
+                            <li><a class="dropdown-item" href="#">History</a></li>
+                            <li><a class="dropdown-item" href="#">Our Team</a></li>
+                            <li><a class="dropdown-item" href="#">Blog</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="menubtn" href="#">Careers</a></li>
+                    <li><a class="menubtn" href="#">About</a></li>
+                </ul>
+                <div class="nav-buttons mobile">
+                    <a href="#" class="menubtn">Login</a>
+                    <a href="#" class="reg menubtn">Register</a>
+                </div>
+            </div>
+            <header>
+                <nav class="flex flex-jc-sb flex-ai-c">
+                    <div class="nav1 flex flex-jc-sb flex-ai-c">
+                        <a href="#" class="nav-logo"><img src="images/logo.svg" alt=""></a>
+                        <ul class="hide-for-mobile">
+                            <li class="indent"><a href="#" class="drop-btn" data-bs-toggle="dropdown"
+                                    aria-expanded="false">Feature
+                                    <img src="images/icon-arrow-down.svg" class="drop" alt="">
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu">
+                                    <li><a class="dropdown-item" href="#"><img src="images/icon-todo.svg" alt="">Todo
+                                            List</a></li>
+                                    <li><a class="dropdown-item" href="#"><img src="images/icon-calendar.svg"
+                                                alt="">Calendar</a></li>
+                                    <li><a class="dropdown-item" href="#"><img src="images/icon-reminders.svg"
+                                                alt="">Reminders</a></li>
+                                    <li><a class="dropdown-item" href="#"><img src="images/icon-planning.svg"
+                                                alt="">Planning</a></li>
+                                </ul>
+                            </li>
+                            <li class="indent"><a href="#" class="drop-btn" data-bs-toggle="dropdown"
+                                    aria-expanded="false">Company
+                                    <img src="images/icon-arrow-down.svg" class="drop" alt="">
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                </ul>
+                            </li>
+                            <li class="indent"><a href="#">Careers</a></li>
+                            <li class="indent"><a href="#">About</a></li>
+                        </ul>
+                    </div>
+                    <div class="nav-buttons hide-for-mobile">
+                        <a href="#">Login</a>
+                        <a href="#" class="reg">Register</a>
+                    </div>
+                    <button class="hamburger hide-for-desktop">
+                        <div class="bar"></div>
+                    </button>
+                </nav>
+            </header>
+            <section>
+                <img src="images/image-hero-mobile.png" alt="" class="hide-for-desktop img3">
+                <div class="text flex">
+                    <div class="pure-text">
+                        <h1><span>Make</span>
+                            <span>remote work</span>
+                        </h1>
+                        <p>
+                            Get your team in sync, no matter your location.
+                            Streamline processes, create team rituals, and
+                            watch productivity soar.
+                        </p>
+                        <div class="nav-buttons"><a class="reg2" href="#">Learn more</a></div>
+                    </div>
+
+                    <div class="client">
+                        <a href=""><img src="images/client-databiz.svg" alt=""></a>
+                        <a href=""><img src="images/client-audiophile.svg" alt=""></a>
+                        <a href=""><img src="images/client-meet.svg" alt=""></a>
+                        <a href=""><img src="images/client-maker.svg" alt=""></a>
+                    </div>
+                </div>
+                <img src="images/image-hero-desktop.png" alt="" class="hide-for-mobile img3">
+
+            </section>
+        </main>
     </div>
-    </main>
-    <footer>
-        <span class="foot">© 2023  MITS</span>
-        <div class="line"></div>
-        <span class="foot">Coming Soon</span>
-    </footer>
-    <div class="saturn">
-        <div class="ring"></div>
-        <div class="small-circle"></div>
-        <div class="semi-small"></div>
-        
-    </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="js/script.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+            crossorigin="anonymous"></script>
     
 </body>
+
 </html>

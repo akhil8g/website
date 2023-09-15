@@ -1,0 +1,85 @@
+section{
+    font-size: 1.125rem;
+    @include breakpoint-up(large){
+        display: flex;
+        justify-content: center;
+    }
+    @include breakpoint-down(medium){
+        font-size: 1rem;
+    }
+}
+section .img3 {
+    width: 100%;
+    @include breakpoint-up(large){
+        width: 33%;
+        margin-left: 16%;
+    }
+
+}
+section h1 {
+    margin-top: 25px;
+    @include breakpoint-down(medium){
+        margin-top: 0px;
+    }
+}
+
+section span {
+    display: block;
+    font-weight: 700;
+    font-size: 5rem;
+    @include breakpoint-down(medium){
+        display: inline;
+        font-size: 2rem;
+    }
+  
+}
+section p {
+    color: $gray;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    width: 28.125rem;
+    @include breakpoint-down(medium){
+        width: 100%;
+        margin-top: 20px;
+        padding: 0 1.5rem;
+        font-size: 1rem;
+    }
+}
+
+.text {
+    padding-top: 4em;
+    flex-direction: column;
+    justify-content: space-between;
+    @include breakpoint-down(medium){
+        text-align: center;  
+        margin: auto;
+        padding-top: 20px;
+        height: 50vh;
+    }
+}
+
+.client img {
+    width: 6rem;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    @include breakpoint-down(medium){
+        width: 4rem;
+        margin-right: 10px;
+    }
+}
+.reg2 {
+    border: 2px solid $black;
+    background-color: $black;
+    color: $white;
+    transition: 0.2s;
+  }
+  
+.reg2:hover {
+    background-color: $white;
+    color: $grey;
+  }
+  
+//menu
+.menu {
+    background-color: $white;
+}

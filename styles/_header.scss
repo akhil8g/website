@@ -1,0 +1,53 @@
+nav {
+  padding: 0.95rem 2rem 0.75rem;
+  font-size: 1rem;
+}
+.nav ul {
+  margin-left: 10px;
+}
+nav ul li {
+  display: inline;
+}
+.indent {
+  margin-left: 20px;
+}
+nav a {
+  color: gray;
+}
+nav a:hover {
+  color: $black;
+}
+
+.nav-buttons a {
+
+  padding: 10px 15px;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.nav-buttons .reg {
+  border: 2px solid $gray;
+  background-color: $white;
+  color: $gray;
+  transition: 0.2s;
+}
+
+.nav-buttons .reg:hover {
+  background-color: $black;
+  color: $white;
+}
+
+//drop-down
+.dropdown-item {
+  margin-left: 0px;
+}
+.dropdown-menu:hover {
+  box-shadow: 0px 0px 96px -23px rgba(0, 0, 0, 0.38);
+  -webkit-box-shadow: 0px 0px 96px -23px rgba(0, 0, 0, 0.38);
+  -moz-box-shadow: 0px 0px 96px -23px rgba(0, 0, 0, 0.38);
+}
+.dropdown-menu {
+  background-color: $white;
+  border-style: none;
+  transition: box-shadow 0.3s;
+}
